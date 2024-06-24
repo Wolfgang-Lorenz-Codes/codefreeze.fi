@@ -33,7 +33,7 @@ Did we mention that this place is above the arctic circle? Which is pretty cool.
 
 ## Registration
 
-- Read the [Code of Conduct](#code-of-conduct).
+- Register your participation on [registration.codefreeze.fi](https://registration.codefreeze.fi/).
 - Book a room or cabin by email (remember to mention _Codefreeze_; see [Accommodation](#accommodation)), or ask for a roommate in the [Matrix channel for the event](/chat).
 - Make travel arrangements to Kiilopää (see [Directions](#directions)).
 - You may also add your arrival and reparture times to [our session planner](#sessions).
