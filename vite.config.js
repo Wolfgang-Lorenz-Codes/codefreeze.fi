@@ -9,9 +9,9 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: resolve(__dirname, 'scripts/status.tsx'),
-      name: 'Status',
-      fileName: 'status',
+      entry: [resolve(__dirname, 'scripts/status.tsx'), resolve(__dirname, 'scripts/participants.tsx')],
+      name: 'dynamic',
+      fileName: 'dynamic',
     },
     rollupOptions: {
       external: ['vue'],

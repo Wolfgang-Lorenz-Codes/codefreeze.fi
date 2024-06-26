@@ -38,6 +38,15 @@ Did we mention that this place is above the arctic circle? Which is pretty cool.
 - Make travel arrangements to Kiilopää (see [Directions](#directions)).
 - You may also add your arrival and reparture times to [our session planner](#sessions).
 
+## Participants
+
+Below are some of our participants this year:
+
+<section id="participants-container" class='participants'>
+</section>
+
+Fill out our [registration form](https://registration.codefreeze.fi/) to add yourself as a participant.
+
 ## Past Events
 
 Since 2015, Codefreeze has happened every year around January. In 2019 we had about 35 participants plus their family and friends, 40 in 2020, 50 participants in 2023 and around 80 in 2024.
