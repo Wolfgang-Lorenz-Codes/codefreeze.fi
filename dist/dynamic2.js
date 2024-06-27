@@ -1,12 +1,12 @@
-import { B as c, u as a, p as m, _ as r, k as h } from "./hooks.module-D3T0iSRI.js";
+import { B as i, u as a, p as m, _ as r, k as h } from "./hooks.module-D3T0iSRI.js";
 const l = () => {
   const [n, s] = m([]);
   return r(() => {
     fetch(
-      "https://pweyq25bld4d7d7chnijyyrpxq0yfbnh.lambda-url.eu-north-1.on.aws/"
+      "https://pweyq25bld4d7d7chnijyyrpxq0yfbnh.lambda-url.eu-north-1.on.aws/?codefreeze=2025"
     ).then((t) => t.json()).then((t) => {
       s(t.sort(
-        (o, i) => o.name.localeCompare(i.name)
+        (o, c) => o.name.localeCompare(c.name)
       ));
     }).catch(console.error);
   }, []), /* @__PURE__ */ a(h, { children: n.map((t) => /* @__PURE__ */ a(d, { profile: t })) });
@@ -27,7 +27,7 @@ const l = () => {
     n.github && /* @__PURE__ */ a(e, { icon: /* @__PURE__ */ a("i", { class: "fab fa-github" }), href: n.github, title: `${n.name} on GitHub` })
   ] })
 ] }), e = ({ href: n, title: s, icon: t }) => /* @__PURE__ */ a("a", { href: n, target: "_blank", rel: "noopener noreferrer", title: s, children: t });
-c(
+i(
   /* @__PURE__ */ a(l, {}),
   document.getElementById("participants-container")
 );

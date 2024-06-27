@@ -18,7 +18,7 @@ const Participants = () => {
 
   useEffect(() => {
     fetch(
-      "https://pweyq25bld4d7d7chnijyyrpxq0yfbnh.lambda-url.eu-north-1.on.aws/"
+      "https://pweyq25bld4d7d7chnijyyrpxq0yfbnh.lambda-url.eu-north-1.on.aws/?codefreeze=2025"
     )
       .then<Array<Profile>>((res) => res.json())
       .then((participants) => {
