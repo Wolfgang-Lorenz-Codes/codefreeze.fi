@@ -3,7 +3,7 @@ const l = () => {
   const [n, s] = m([]);
   return r(() => {
     fetch(
-      "https://pweyq25bld4d7d7chnijyyrpxq0yfbnh.lambda-url.eu-north-1.on.aws/?codefreeze=2025"
+      "https://ruj56hpsooydu4jmctx5u7gdra0mbszw.lambda-url.eu-north-1.on.aws/?codefreeze=2025"
     ).then((t) => t.json()).then((t) => {
       s(t.sort(
         (o, c) => o.name.localeCompare(c.name)
