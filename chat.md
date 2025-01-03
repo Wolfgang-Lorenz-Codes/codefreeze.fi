@@ -42,4 +42,6 @@ You may at any time request additional public or private channels, just reach ou
 
 ## Infrastructure
 
-`matrix.codefreeze.fi` runs on an _small_ [AWS Lightsail](https://aws.amazon.com/lightsail/) instance (2 GB RAM, 2 vCPUs, 60 GB SSD) which costs around USD$ 12.50 / month and is hosted in the `eu-north` (Stockholm) region.
+`matrix.codefreeze.fi` runs on an _small_ [AWS Lightsail](https://aws.amazon.com/lightsail/) instance (2 GB RAM, 2 vCPUs, 60 GB SSD) which costs around USD$ 12.50 / month plus tax (~15 EUR) and is hosted in the `eu-north` (Stockholm) region.
+
+If you want to support the infrastructure costs, you can send me money via [PayPal](https://paypal.me/coderbyheart) or [Revolut](https://revolut.me/coderbyheart).
