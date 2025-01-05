@@ -40,12 +40,12 @@ Did we mention that this place is above the arctic circle? Which is pretty cool.
 
 ## Participants
 
-Below are some of our participants this year:
+Below are some of our participants this year.
+
+Fill out our [registration form](https://registration.codefreeze.fi/) to add yourself as a participant.
 
 <section id="participants-container" class='participants'>
 </section>
-
-Fill out our [registration form](https://registration.codefreeze.fi/) to add yourself as a participant.
 
 ## Past Events
 
