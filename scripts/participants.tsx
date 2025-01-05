@@ -60,5 +60,3 @@ render(
   <Participants />,
   document.getElementById("participants-container") as HTMLDivElement
 );
-
-console.log(document.getElementById("participants"))

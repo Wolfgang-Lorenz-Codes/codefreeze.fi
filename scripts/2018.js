@@ -9,7 +9,6 @@ window.toggleMenu = () => {
 
 window.onload = () => {
   const body = document.getElementsByTagName("body")[0];
-  console.log(body);
 
   const width = body.clientWidth;
   const mapFrame = document.createElement("iframe");
@@ -31,7 +30,6 @@ window.onload = () => {
     }
     if (document.documentElement.scrollTop <= scrollHeight && scrolling) {
       scrolling = false;
-      console.log("no scrolling");
       mainNav.className = mainNav.className.replace("scrolling", "").trim();
     }
   };

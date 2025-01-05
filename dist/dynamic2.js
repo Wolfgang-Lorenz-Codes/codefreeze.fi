@@ -1,6 +1,6 @@
-import { B as i, u as a, p as m, _ as r, k as h } from "./hooks.module-D3T0iSRI.js";
+import { B as i, u as n, p as m, _ as r, k as h } from "./hooks.module-D3T0iSRI.js";
 const l = () => {
-  const [n, s] = m([]);
+  const [a, s] = m([]);
   return r(() => {
     fetch(
       "https://ruj56hpsooydu4jmctx5u7gdra0mbszw.lambda-url.eu-north-1.on.aws/?codefreeze=2025"
@@ -9,26 +9,25 @@ const l = () => {
         (o, c) => o.name.localeCompare(c.name)
       ));
     }).catch(console.error);
-  }, []), /* @__PURE__ */ a(h, { children: n.map((t) => /* @__PURE__ */ a(d, { profile: t })) });
-}, d = ({ profile: n }) => /* @__PURE__ */ a("div", { class: "participant", children: [
-  /* @__PURE__ */ a("img", { class: "avatar", src: n.photoThumbnail ?? "/images/avatar.jpg", alt: n.name }),
-  /* @__PURE__ */ a("h3", { children: [
-    n.name,
-    n.pronouns && /* @__PURE__ */ a("small", { children: [
-      /* @__PURE__ */ a("br", {}),
-      n.pronouns
+  }, []), /* @__PURE__ */ n(h, { children: a.map((t) => /* @__PURE__ */ n(d, { profile: t })) });
+}, d = ({ profile: a }) => /* @__PURE__ */ n("div", { class: "participant", children: [
+  /* @__PURE__ */ n("img", { class: "avatar", src: a.photoThumbnail ?? "/images/avatar.jpg", alt: a.name }),
+  /* @__PURE__ */ n("h3", { children: [
+    a.name,
+    a.pronouns && /* @__PURE__ */ n("small", { children: [
+      /* @__PURE__ */ n("br", {}),
+      a.pronouns
     ] })
   ] }),
-  /* @__PURE__ */ a("nav", { children: [
-    n.homepage && /* @__PURE__ */ a(e, { icon: /* @__PURE__ */ a("i", { class: "fas fa-home" }), href: n.homepage, title: `Homepage of ${n.name}` }),
-    n.linkedin && /* @__PURE__ */ a(e, { icon: /* @__PURE__ */ a("i", { class: "fab fa-linkedin" }), href: n.linkedin, title: `${n.name}'s LinkedIn profile` }),
-    n.mastodon && /* @__PURE__ */ a(e, { icon: /* @__PURE__ */ a("img", { src: "/logos/mastodon.svg", alt: "mastodon", class: "icon" }), href: n.mastodon, title: `${n.name} on Mastodon` }),
-    n.matrix && /* @__PURE__ */ a(e, { icon: /* @__PURE__ */ a("img", { src: "/logos/matrix.svg", alt: "matrix", class: "icon" }), href: n.matrix, title: `${n.name} on Matrix` }),
-    n.github && /* @__PURE__ */ a(e, { icon: /* @__PURE__ */ a("i", { class: "fab fa-github" }), href: n.github, title: `${n.name} on GitHub` })
+  /* @__PURE__ */ n("nav", { children: [
+    a.homepage && /* @__PURE__ */ n(e, { icon: /* @__PURE__ */ n("i", { class: "fas fa-home" }), href: a.homepage, title: `Homepage of ${a.name}` }),
+    a.linkedin && /* @__PURE__ */ n(e, { icon: /* @__PURE__ */ n("i", { class: "fab fa-linkedin" }), href: a.linkedin, title: `${a.name}'s LinkedIn profile` }),
+    a.mastodon && /* @__PURE__ */ n(e, { icon: /* @__PURE__ */ n("img", { src: "/logos/mastodon.svg", alt: "mastodon", class: "icon" }), href: a.mastodon, title: `${a.name} on Mastodon` }),
+    a.matrix && /* @__PURE__ */ n(e, { icon: /* @__PURE__ */ n("img", { src: "/logos/matrix.svg", alt: "matrix", class: "icon" }), href: a.matrix, title: `${a.name} on Matrix` }),
+    a.github && /* @__PURE__ */ n(e, { icon: /* @__PURE__ */ n("i", { class: "fab fa-github" }), href: a.github, title: `${a.name} on GitHub` })
   ] })
-] }), e = ({ href: n, title: s, icon: t }) => /* @__PURE__ */ a("a", { href: n, target: "_blank", rel: "noopener noreferrer", title: s, children: t });
+] }), e = ({ href: a, title: s, icon: t }) => /* @__PURE__ */ n("a", { href: a, target: "_blank", rel: "noopener noreferrer", title: s, children: t });
 i(
-  /* @__PURE__ */ a(l, {}),
+  /* @__PURE__ */ n(l, {}),
   document.getElementById("participants-container")
 );
-console.log(document.getElementById("participants"));
